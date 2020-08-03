@@ -1,0 +1,96 @@
+body {
+    font-family: sans-serif;
+    background-image: url("/assets/img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2B3A40;
+}
+.navbar-brand{
+  font-weight: 400;
+  font-size: 25px;
+  color: white !important;
+}
+.nav-item{
+  color: white !important;
+}
+.profile-card-1 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  border:none;
+  margin-top: 320px;
+}
+.profile-card-1 .card-content {
+  width: 100%;
+  padding: 15px 25px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.profile-card-1 .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  max-width: 150px;
+  opacity: 1;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 1);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+.profile-card-1 h2 {
+  margin: 0 0 5px;
+  font-weight: 600;
+  font-size:30px;
+}
+.profile-card-1 i {
+  display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin:0 5px;
+}
+.profile-card-1 .icon-block{
+    float:left;
+    width:100%;
+    margin-top:15px;
+}
+.profile-card-1 .icon-block a{
+    text-decoration:none;
+}
+.profile-card-1 i:hover {
+  background-color:#fff;
+  color:#2E3434;
+  text-decoration:none;
+}
+#particles-js{
+  z-index: -1 !important;
+  position: absolute;
+  margin-top: -70px;
+  width: 100%;
+  height: 100%;
+}
+
+/* mobile */
+@media (min-width: 992px) {
+.nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+}
+.nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid white;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+}
+}
