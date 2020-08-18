@@ -77,6 +77,26 @@ body {
   width: 100%;
   height: 100%;
 }
+.profile{
+  margin-top: 100px;
+}
+.profile .profile_img_info{
+  display: flex;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.profile .profile_img_info img{
+  display: block;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.profile .info{
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.profile .fa-map-marker{
+  margin-right: 10px;
+}
 
 /* mobile */
 @media (min-width: 992px) {
