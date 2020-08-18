@@ -58,15 +58,15 @@ const user = document.querySelector('.con-user')
     }
 
     contents.addEventListener('scroll', (evt) => {
-        if (evt.target.scrollRight > window.innerWidth / 2 && evt.target.scrollRight < window.innerWidth + (window.innerWidth / 2)) {
+        if (evt.target.scrollLeft > window.innerWidth / 2 && evt.target.scrollLeft < window.innerWidth + (window.innerWidth / 2)) {
             menu.querySelector('button:nth-child(1)').classList.remove('active')
             menu.querySelector('button:nth-child(2)').classList.add('active')
             menu.querySelector('button:nth-child(3)').classList.remove('active')
-        } else if (evt.target.scrollRight < window.innerWidth / 2) {
+        } else if (evt.target.scrollLeft < window.innerWidth / 2) {
             menu.querySelector('button:nth-child(1)').classList.add('active')
             menu.querySelector('button:nth-child(2)').classList.remove('active')
             menu.querySelector('button:nth-child(3)').classList.remove('active')
-        } else if (evt.target.scrollRight > window.innerWidth + (window.innerWidth / 2)) {
+        } else if (evt.target.scrollLeft > window.innerWidth + (window.innerWidth / 2)) {
             menu.querySelector('button:nth-child(2)').classList.remove('active')
             menu.querySelector('button:nth-child(3)').classList.add('active')
         }
