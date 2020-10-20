@@ -4,6 +4,11 @@ body {
     font-size: 100%;
     background: #EDF2F7;
 	font-family: 'Roboto', sans-serif;
+	user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
 }
 
 body a {
@@ -218,7 +223,9 @@ h4.text{
 	font-size: 13px;
 	margin-top: -5px;
 }
+/* about */
 
+/* footer */
 footer {
     background: #222;
 }
@@ -232,6 +239,8 @@ footer p ,footer p a,.copyright p{
 .copyright p a{
     color: #ccc;
 }
+/* footer */
+
 @media(max-width:1280px) {
     .about-right h4.main {
 		margin: 0em 0 .5em;
